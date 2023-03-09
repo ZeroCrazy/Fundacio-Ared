@@ -1,5 +1,5 @@
-# Fundacio-Ared
- Sistema para hospedar a personas en un hotel
+# Fundacio-Ared (La llavor)
+ System for hosting people in a hotel
 
 ![](https://i.imgur.com/jmlo1f9.png)
 

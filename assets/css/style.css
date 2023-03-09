@@ -1,0 +1,91 @@
+body {
+	background: #fdfdfd;
+}
+nav{
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.nav-background{
+  background: #e65100;
+  height: 300px;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.63);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.06);
+}
+.nav-background .text{
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  opacity: 1;
+  text-transform: uppercase;
+  margin-top: 110px;
+}
+.nav-background-sub{
+  background: url('../images/icon-seamless.png');
+  height: 300px;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  opacity: 0.2;
+}
+nav ul li.active{
+  background-color: transparent;
+  border-bottom: 2px solid #fff;
+}
+nav ul li{
+  letter-spacing: 1px;
+}
+header,main,footer{
+  padding-left: 300px;
+}
+#myInput {
+  background: #fff;
+  border-radius: 200px;
+  background-image: url('assets/images/search.png'); /* Add a search icon to input */
+  background-position: 13px 6px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 7px 0px; /* Add some padding */
+  text-align: center;
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 2px solid #fff;
+  border-radius: 200px;
+  margin-top: -1px;
+  background-color: rgb(231, 80, 0);
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  display: block;
+  text-transform: capitalize;
+}
+
+#myUL li a.header {
+  background-color: #e2e2e2;
+  cursor: default;
+}
+
+#myUL li a:hover:not(.header) {
+  opacity: 0.8;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width : 992px) {
+  header,main,footer{
+    padding-left: 0;
+  }
+}
